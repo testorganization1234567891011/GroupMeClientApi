@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v1
     
     - name: Copy README into DocFX folder
-      run: cp README.md docs/README.md
+      run: cp README.md docs/index.md
       shell: bash
     
     - uses: nikeee/docfx-action@v1.0.0
